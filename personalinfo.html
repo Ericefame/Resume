@@ -1,127 +1,129 @@
-<!DOCTYPE html>
-<html>
+</html>
 <head>
-	<title>Personal Information</title>
-</head>
-<body>
-	<div class="body">
-			<nav class="navbar">
-				<style type="text/css">
-					</<style>
-<br>
-<br>					
+    <link href="https://fonts.googleapis.com/css?family=Lucida Handwriting Courier New" rel="stylesheet" type="text/css">
 <style>
-* {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial;
-  padding: 5px;
-  background-image: url(images/pp.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background:#f7f7f7;
+  font-family:Arial;
+  padding:0px 0px;
 }
 
- ul.a {
+h2 {
+
+  color:black;
+  text-transform:none;
+  text-align:center;
+  letter-spacing: 3px;
+  font-family: Courier New;
+}
+p {
+
+  color:black;
+  text-transform:3px;
+  text-align:center;
+  letter-spacing:none;
+  font-family: Ariel;
+}
+
+.container {
+  width:99%;
+  height: 400px;
+  padding: 10px;
   overflow: hidden;
-  background-color: rgba(245, 132, 181);
+  overflow-y: scroll;
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: left;
-  padding: 5px 10px;
-  text-decoration: none;
-}
-
-.leftcolumn {   
-  float: left;
-  width: 70%;
-}
-
-.rightcolumn {
-  float: left;
-  width: 70%;
   
+.columns {
+  margin:0 15px 15px;
+  box-shadow: 0 20px 20px rgba(209, 86, 176), 0 10px 10px rgba(0, 0, 0);
+  border-radius:3px;
+  flex-basis:33%
 }
-
+  
 .card {
-  background-color: white;
-  padding: 40px;
-  margin-top: 10px;
+  padding:50px 25px
 }
+  @media screen and (max-width: 768px){
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-li.b {
-  list-style-type: circle;
-}
-li.c{
-	list-style-type: circle;
-}
-
-@media screen and (max-width: 400px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
+.container {
+        flex-direction: column;
+      }
+    }
 
 </style>
 </head>
+<div class="wrapper">
+      <link rel ="stylesheet" href="style.css">
+  <header>
+    <nav class="navbar">
+   <ul>
+      <li><a href="index.html" style="text-align:center;"><li><strong>Home</strong></li></a>
+      <li><a href="personalinfo.html" style="text-align:center;" ><li><strong>Personal Information</strong></li></a>
+      <li><a href="educationalbkg.html" style="text-align:center;"><li><strong>Educational Backround</strong></li></a>
+      <li><a href="reference.html" style="text-align:center;"><li><strong>Character References</strong></li></a></li>
+        </ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <body>
-	<ul class ="a">
-			<li><a href="index.html" style="text-align:center;"><li><strong>Home</strong></li></a>
-			<li><a href="personalinfo.html" style="text-align:center;" ><li><strong>Personal Information</strong></li>
-			</a>
-			<li><a href="educationalbkg.html" style="text-align:center;"><li><strong>Educational Backround</strong></li></a>
-			<li><a href="reference.html" style="text-align:center;"><li><strong>Character References</strong></li></a></li>
-				</ul>
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>OBJECTIVES</h2>
-      <p>To work in a challenging surroundings demanding all my skills effort to explore and become accustomed myself in different fields, and realize my potential and add to the development of organization with inspiring performance.</p>
-    </div>
-   
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>ABILITIES</h2>
-      <ul class="b">
-  		<li>The abilitt to follow and deliver quality results</li>
-  		<br>
-  		<li>The ability to work ubdet pressure and multi-task</li>
-  		<br>
- 		 <li>Successful working in a team environment as well as independently</li>
-			</ul>
-      
-    </div>
-    
-    <div class="card">
-      <h2>Skills</h2>
-      <ul class="c">
-      	<li>Web Design</li>
-  		<br>
-  		<li>Programming</li>
-  		<br>
- 		 <li>HTML</li>
-			</ul>
-      
+<div class="container">
+<div class="columns">
+<div class="card">
 
-    </div>
-  </div>
+<h2>OBJECTIVES</h2>
+    <br>
+    <p>To work in a challenging surroundings demanding all my skills effort to explore and become accustomed myself in different fields, and realize my potential and add to the development of organization with inspiring performances.</p>
+
+</div>
+</div>
+<div class="columns">
+<div class="card">
+<h2>ABILITIES</h2>
+<br>
+  <p>The ability to follow instruction and deliver quality results</p>
+  <br>
+  <p>The ability to work under pressure and multi-task</p>
+  <br>
+  <p>Succesful working in a team environment as well as independently</p>
+  
 </div>
 
+</div>
 
+<div class="columns">
+<div class="card">
+<h2>SKILLS</h2>
+<br>
+<p class="a">
+ <p>Javascript</p>
+  <br>
+  <p>HTML & CSS</p>
+  <br>
+  <p>Communicate effectively</p>
+  <br>
+  <p>Basic Animation</p>
+  
+</div>
+
+</div>
+</div>
+<script>
+  <br>
+  <br>
+  <br>
+  
+</div>
+<style>
+    p{
+        color: black;
+    }
+    p1{
+        color: white;
+    }
 </body>
+
 </html>
