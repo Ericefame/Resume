@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  			background-image: url(images/pp.jpg);
+  			background-repeat: no-repeat;
+ 			background-attachment: fixed;
+  			background-size: 100% 100%;
+
+}
+.navbar{
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(245, 132, 181);
+	
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 8px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 2px;
+	display: inline-block;
+	line-height: 30px;
+}
+.navbar ul li a{
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	padding: 2px 2px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgba(250, 222, 234);
+	border-radius: 2px;
+
+}
+
+.footer {
+  background-color:none
+  padding: 2px;
+  text-align: center;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+}
+
+
+ 
